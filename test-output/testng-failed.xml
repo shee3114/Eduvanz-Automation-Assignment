@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="password" value="sheetal@123"/>
+    <parameter name="address" value="Cleveland, OH 44113"/>
+    <parameter name="userName" value="sheetal124@gmail.com"/>
+    <classes>
+      <class name="Scenarios.Suite.appSuite.AutomationPraticeSuite">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+          <include name="verifyProductDetailsAndPurchaseProduct" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scenarios.Suite.appSuite.AutomationPraticeSuite -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

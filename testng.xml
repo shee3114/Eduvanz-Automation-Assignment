@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="userName" value="sheetal124@gmail.com" />
+		<parameter name="password" value="sheetal@123" />
+		<parameter name="address" value="Cleveland, OH 44113" />
+		<classes>
+			<class name="Scenarios.Suite.appSuite.AutomationPraticeSuite" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
